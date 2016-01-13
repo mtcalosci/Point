@@ -3,10 +3,11 @@ public class Cerchio {
     private Punto centro;
     
     
-Cerchio(){
+public Cerchio(){
 raggio=0;
 }
-    Cerchio(Punto centro, float raggio){
+
+public Cerchio(Punto centro, float raggio){
         this.centro = centro;
         this.raggio = raggio;
 } 
